@@ -24,6 +24,7 @@ body {
   padding-left: 400px;
   cursor: pointer;
 }
+
 .navbar a:hover {
   background-color: black;
   color: #fff !important;
@@ -215,33 +216,31 @@ h1 {
 }
 
 .tags a {
-  display: block; 
-  padding: 10px 10px; 
-  border: 1px solid #ccc; 
-  font-size: 0.75rem; 
-  color:#555; 
-  text-align: center; 
-  text-decoration: none; 
-  background-color: #f9f9f9; 
-  box-sizing: border-box; 
+  display: block;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  font-size: 0.75rem;
+  color: #555;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
   flex: 0 0 calc(33.333% - 1rem);
   transition: background-color 0.3s ease, border-color 0.3s ease;
-
 }
 
-.tags a:hover{
+.tags a:hover {
   background-color: #e6e6e6;
   border-color: #999;
 }
 
-
 .containerRight .list {
   padding-top: 30px;
   color: #555;
-  display: flex; 
- align-content: flex-start;
-  gap: 1rem; 
-  list-style: none;  
+  display: flex;
+  align-content: flex-start;
+  gap: 1rem;
+  list-style: none;
   margin: 0;
-  
+  font-size: 1em;
 }
