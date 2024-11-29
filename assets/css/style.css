@@ -16,7 +16,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #555;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,7 +108,6 @@ h1 {
   font-weight: 700;
 }
 
-
 .number {
   color: #e6e6e6;
   font-size: 3rem;
@@ -127,7 +126,6 @@ h1 {
   justify-content: start;
   padding-top: 30px;
   padding-left: 130px;
-
 }
 .article p {
   font-weight: bold;
@@ -146,58 +144,104 @@ h1 {
   padding-right: 20vh;
   padding-bottom: 5vh;
   justify-content: start;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #555;
 }
 
 .littleImg {
   border-radius: 50%;
 }
 
-
-
-
-
 .thirdBlock .article .content {
- width: 100px;
- height: 100px;
-
+  width: 100px;
+  height: 100px;
 }
 
 .thirdBlock .article .content h3 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #000; 
-  margin-bottom: 0.5rem; 
+  color: #000;
+  margin-bottom: 0.5rem;
 }
 
 .thirdBlock .article .content p {
-  font-size: 0.9rem; 
+  font-size: 0.9rem;
   color: #555;
 }
 
-
-.category{
-  background-color: #F2F2F2;
- color: #555;
-border-radius: 15px;
-padding: 5px;
+.category {
+  background-color: #f2f2f2;
+  color: #555;
+  border-radius: 15px;
+  padding: 5px;
 }
 
-.image{
+.image {
   display: flex;
   flex-direction: center;
   gap: 1rem;
-  }
+}
+.thirdBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: end;
+}
 
-  .image-text-line img {
-    width: 50px;
-    height: 50px; 
-    object-fit: cover;
-  }
+.containerRight p {
+  font-weight: 700;
+  color: #000;
+  padding-top: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+}
+.containerRight a {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #555;
+  padding: 3px;
+  color: #555;
+  padding: 5px;
+}
 
-  .image-text-line h3 {
-    font-size: 1.5rem; 
-    font-weight: bold; 
-    margin: 0; 
-    color: #555; 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #555;
+  padding-bottom: 20px;
+}
+
+.tags a {
+  display: block; 
+  padding: 10px 10px; 
+  border: 1px solid #ccc; 
+  font-size: 0.75rem; 
+  color:#555; 
+  text-align: center; 
+  text-decoration: none; 
+  background-color: #f9f9f9; 
+  box-sizing: border-box; 
+  flex: 0 0 calc(33.333% - 1rem);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
+}
+
+.tags a:hover{
+  background-color: #e6e6e6;
+  border-color: #999;
+}
+
+
+.list li {
+  padding-top: 20px;
+  color: #555;
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 1rem; 
+  list-style: none; 
+  padding: 0; /
+  margin: 0;
 }
